@@ -1,3 +1,4 @@
+/*
 // Esercizio Pari e Dispari
 //Chiedere all'utente di scegliere tra pari e dispari e di inseriere un numero 
 let paridispari= prompt("Scegli tra pari e dispari");
@@ -30,7 +31,30 @@ function Checkparidisparidichiaravintapersa (number, or) {
         console.log ("Hai vinto")
     }
 }
+*/
 
+
+
+//Esercizio parola palindroma
+//Chiedere all'utente di inseriere una parola
+
+let parola= prompt("Inserisci una parola");
+let parolaInversa= invertiParola(parola);
+
+if(parola == parolaInversa) {
+    console.log("La parola è palindroma");
+}
+else {
+    console.log("La parola non è palindroma");
+}
+
+
+
+
+function invertiParola(str) {
+    var strInversa = str.split("").reverse().join("");
+    return strInversa
+}
 
 
 
