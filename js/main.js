@@ -50,7 +50,7 @@ else {
 
 
 
-
+// Creazione funzione per invertire la parola e vedere se è palindroma
 function invertiParola(str) {
     var strInversa = str.split("").reverse().join("");
     return strInversa
